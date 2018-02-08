@@ -342,6 +342,8 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"\"$(SRCROOT)/../Pods/GoogleMobileAds/Frameworks/\"",
+					"\"$(SRCROOT)/../Pods/FBAudienceNetwork/\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
@@ -365,6 +367,8 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"\"$(SRCROOT)/../Pods/GoogleMobileAds/Frameworks/\"",
+					"\"$(SRCROOT)/../Pods/FBAudienceNetwork/\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
