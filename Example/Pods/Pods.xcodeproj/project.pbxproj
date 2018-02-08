@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E79D111B0B47C3252F525B1 /* libPods-CTMediationCocoaPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD3034C4F253FEF1C66A123 /* libPods-CTMediationCocoaPods.a */; };
 		2E48527D9A1ED7864B0C5AD3C6939600 /* CTMediationCocoaPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C3750F94D672D6D06DC4990FE6C7 /* CTMediationCocoaPods-dummy.m */; };
 		307B846A361E41A2564064B4EF327130 /* CTMediationCocoaPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E676B55492722321745662D955303179 /* CTMediationCocoaPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48DA30C09CD2BA1A19EA1DE4C3F1874A /* Pods-CTMediationCocoaPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AB26B92955B6DA73C09D45B2582371 /* Pods-CTMediationCocoaPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5582AAF7FF047398535789EE /* libPods-Pods-CTMediationCocoaPods_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B236469A7321E2CE1A050DDF /* libPods-Pods-CTMediationCocoaPods_Tests.a */; };
 		62F841C2DF36F3E4990BDE1118CEF83F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		95094F023D4F69A04A7FDB632AA25F41 /* Pods-CTMediationCocoaPods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 407781492B4396CCCA59F95F007EA0F6 /* Pods-CTMediationCocoaPods_Tests-dummy.m */; };
+		C76B51DB202C4A9A009B95B0 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76B51DA202C4A9A009B95B0 /* FBAudienceNetwork.framework */; };
+		C76B51DD202C4A9D009B95B0 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76B51DC202C4A9D009B95B0 /* GoogleMobileAds.framework */; };
 		E6B95B5C39E0F8AA5D0697ACB9E1159B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,15 +39,19 @@
 		407781492B4396CCCA59F95F007EA0F6 /* Pods-CTMediationCocoaPods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTMediationCocoaPods_Tests-dummy.m"; sourceTree = "<group>"; };
 		631F615CF5829934E8897DE607A0FD87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BD3034C4F253FEF1C66A123 /* libPods-CTMediationCocoaPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTMediationCocoaPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DCAAD05C203FEC6C27D407B5B46E77 /* CTMediationCocoaPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CTMediationCocoaPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		929F9699A04EDE4C453C1AEE2BCC83CD /* Pods-CTMediationCocoaPods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTMediationCocoaPods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D18C802F9C9A95E5BB2B9C9551FDFBB /* CTMediationCocoaPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediationCocoaPods-prefix.pch"; sourceTree = "<group>"; };
 		A6F91FC3690A549AF13572787AD1C11F /* CTMediationCocoaPods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediationCocoaPods.xcconfig; sourceTree = "<group>"; };
 		A6FBC6B0BB9F1C9DB1D99A95D721E7CD /* CTMediationCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediationCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B236469A7321E2CE1A050DDF /* libPods-Pods-CTMediationCocoaPods_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pods-CTMediationCocoaPods_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7650236D3A8C05F42EF0B0F13049864 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B89789B17E8B813CFDA53AFBDDAE588A /* Pods_CTMediationCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediationCocoaPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AB26B92955B6DA73C09D45B2582371 /* Pods-CTMediationCocoaPods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CTMediationCocoaPods_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C76B51DA202C4A9A009B95B0 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = ../../Pods/FBAudienceNetwork/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		C76B51DC202C4A9D009B95B0 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = ../../Pods/GoogleMobileAds/Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
 		C7F5F666202C3C12009990EE /* CTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CTSDK.framework; sourceTree = "<group>"; };
 		C94C7442C67FB48FF41FD0D748E6BE82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE966D7FA80D370FC01C099C46993032 /* Pods-CTMediationCocoaPods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTMediationCocoaPods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -58,6 +66,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6B95B5C39E0F8AA5D0697ACB9E1159B /* Foundation.framework in Frameworks */,
+				C76B51DB202C4A9A009B95B0 /* FBAudienceNetwork.framework in Frameworks */,
+				C76B51DD202C4A9D009B95B0 /* GoogleMobileAds.framework in Frameworks */,
+				0E79D111B0B47C3252F525B1 /* libPods-CTMediationCocoaPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62F841C2DF36F3E4990BDE1118CEF83F /* Foundation.framework in Frameworks */,
+				5582AAF7FF047398535789EE /* libPods-Pods-CTMediationCocoaPods_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +124,7 @@
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CF411EABF479B51893C8C252340BE8DC /* Products */,
 				D81C1358EC19F365536545EDC51EDD31 /* Targets Support Files */,
+				B654260A12A3E2D507BD1112 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,10 +136,21 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		B654260A12A3E2D507BD1112 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C76B51DC202C4A9D009B95B0 /* GoogleMobileAds.framework */,
+				C76B51DA202C4A9A009B95B0 /* FBAudienceNetwork.framework */,
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				6BD3034C4F253FEF1C66A123 /* libPods-CTMediationCocoaPods.a */,
+				B236469A7321E2CE1A050DDF /* libPods-Pods-CTMediationCocoaPods_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C07257B39A882642704F86A8AC4233D9 /* Build configuration list for PBXNativeTarget "Pods-CTMediationCocoaPods_Tests" */;
 			buildPhases = (
+				BBC713FBB8F0F444A5794F9F /* [CP] Check Pods Manifest.lock */,
 				D44D0FB859BBFAC5E7265AB3A32D4649 /* Sources */,
 				D0779B5268C6335E98DE722AD53581A2 /* Frameworks */,
 				2E344B7591FF0997F1735E2C0CCA8E39 /* Headers */,
+				86CE4491328FF07DBDDEDA38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D54C25854CEAD7895B32071D8896D444 /* Build configuration list for PBXNativeTarget "CTMediationCocoaPods" */;
 			buildPhases = (
+				1D61F6F8BD2CE574131B0867 /* [CP] Check Pods Manifest.lock */,
 				68804AAE28DED96F53684BC292004A07 /* Sources */,
 				8626E7118CDABAE931CAAD6FE30FDC61 /* Frameworks */,
 				E7623B9DF389E8EABB71E5B9DCFB1E41 /* Headers */,
+				2295979AC5260F7A641A9319 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +297,75 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D61F6F8BD2CE574131B0867 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTMediationCocoaPods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2295979AC5260F7A641A9319 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTMediationCocoaPods/Pods-CTMediationCocoaPods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CE4491328FF07DBDDEDA38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pods-CTMediationCocoaPods_Tests/Pods-Pods-CTMediationCocoaPods_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC713FBB8F0F444A5794F9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pods-CTMediationCocoaPods_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68804AAE28DED96F53684BC292004A07 /* Sources */ = {
