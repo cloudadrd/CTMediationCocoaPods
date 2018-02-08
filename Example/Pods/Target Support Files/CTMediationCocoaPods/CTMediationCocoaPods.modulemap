@@ -1,6 +1,0 @@
-framework module CTMediationCocoaPods {
-  umbrella header "CTMediationCocoaPods-umbrella.h"
-
-  export *
-  module * { export * }
-}

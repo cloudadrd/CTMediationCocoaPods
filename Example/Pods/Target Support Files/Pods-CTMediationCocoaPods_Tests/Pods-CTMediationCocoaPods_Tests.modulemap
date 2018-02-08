@@ -1,6 +1,0 @@
-framework module Pods_CTMediationCocoaPods_Tests {
-  umbrella header "Pods-CTMediationCocoaPods_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
