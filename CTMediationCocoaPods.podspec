@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CTMediationSDK'
+  s.name             = 'CTMediationCocoaPods'
   s.version          = '2.6.0'
   s.summary          = 'CTMediationSDK with Facebook and Admob'
 
