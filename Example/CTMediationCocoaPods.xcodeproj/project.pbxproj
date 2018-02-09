@@ -28,7 +28,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		A8809EA366FE0C3B5C966E96 /* Pods-CTMediationCocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediationCocoaPods_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTMediationCocoaPods_Tests/Pods-CTMediationCocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD14A8015CAFDF291CA1461F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F5FB9463839FA5A6BA7698A7 /* CTMediationCocoaPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CTMediationCocoaPods.podspec; path = ../CTMediationCocoaPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5FB9463839FA5A6BA7698A7 /* CTMediationSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CTMediationSDK.podspec; path = ../CTMediationSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F6EEB5387BEF966C2F3165EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA3131A4326CAD21841B8EEA /* Pods_CTMediationCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediationCocoaPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,7 +110,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				F5FB9463839FA5A6BA7698A7 /* CTMediationCocoaPods.podspec */,
+				F5FB9463839FA5A6BA7698A7 /* CTMediationSDK.podspec */,
 				CD14A8015CAFDF291CA1461F /* README.md */,
 				F6EEB5387BEF966C2F3165EC /* LICENSE */,
 			);

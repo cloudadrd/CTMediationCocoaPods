@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CTMeidiationSDK'
+  s.name             = 'CTMediationSDK'
   s.version          = '2.6.0'
   s.summary          = 'CT Meidiation SDK'
 
@@ -29,8 +29,9 @@ CT Meidiation SDK Support CocoaPods.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
-  s.vendored_frameworks = 'CTCocoaPods/Frameworks/CTSDK.framework'
-  
+  s.vendored_frameworks = 'CTMediationCocoaPods/Frameworks/CTSDK.framework'
+  s.dependency 'FBAudienceNetwork'
+  s.dependency 'GoogleMobileAds'
   #s.source_files = 'CTMediationCocoaPods/Classes/**/*'
   
   # s.resource_bundles = {
