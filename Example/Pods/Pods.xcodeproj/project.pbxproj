@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0207DD0E64BD63C8786F249AA16BC1CB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A956F2A4FD2F6D4A35D752D2C3F350B1 /* ReplaceMe.m */; };
 		2E48527D9A1ED7864B0C5AD3C6939600 /* CTMediationCocoaPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C3750F94D672D6D06DC4990FE6C7 /* CTMediationCocoaPods-dummy.m */; };
 		307B846A361E41A2564064B4EF327130 /* CTMediationCocoaPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E676B55492722321745662D955303179 /* CTMediationCocoaPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48DA30C09CD2BA1A19EA1DE4C3F1874A /* Pods-CTMediationCocoaPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AB26B92955B6DA73C09D45B2582371 /* Pods-CTMediationCocoaPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,23 +28,23 @@
 /* Begin PBXFileReference section */
 		1235556D422415C938A0934B34ADEAC1 /* Pods-CTMediationCocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTMediationCocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1F223099E578862DE827D14AF98FC5D0 /* Pods-CTMediationCocoaPods_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CTMediationCocoaPods_Tests-resources.sh"; sourceTree = "<group>"; };
-		2E394F7BF225369D53E79E4DCD5D3A40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2E394F7BF225369D53E79E4DCD5D3A40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2FA431498656D5DA0AEA993EE0E4B455 /* Pods-CTMediationCocoaPods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CTMediationCocoaPods_Tests.modulemap"; sourceTree = "<group>"; };
 		3A518E9C0A817FF178BE79577F6F3513 /* CTMediationCocoaPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediationCocoaPods.modulemap; sourceTree = "<group>"; };
 		4075C3750F94D672D6D06DC4990FE6C7 /* CTMediationCocoaPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediationCocoaPods-dummy.m"; sourceTree = "<group>"; };
 		407781492B4396CCCA59F95F007EA0F6 /* Pods-CTMediationCocoaPods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTMediationCocoaPods_Tests-dummy.m"; sourceTree = "<group>"; };
 		631F615CF5829934E8897DE607A0FD87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		90DCAAD05C203FEC6C27D407B5B46E77 /* CTMediationCocoaPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CTMediationCocoaPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90DCAAD05C203FEC6C27D407B5B46E77 /* CTMediationCocoaPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CTMediationCocoaPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		929F9699A04EDE4C453C1AEE2BCC83CD /* Pods-CTMediationCocoaPods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTMediationCocoaPods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D18C802F9C9A95E5BB2B9C9551FDFBB /* CTMediationCocoaPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediationCocoaPods-prefix.pch"; sourceTree = "<group>"; };
 		A6F91FC3690A549AF13572787AD1C11F /* CTMediationCocoaPods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediationCocoaPods.xcconfig; sourceTree = "<group>"; };
-		A6FBC6B0BB9F1C9DB1D99A95D721E7CD /* CTMediationCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediationCocoaPods.framework; path = CTMediationCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A956F2A4FD2F6D4A35D752D2C3F350B1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CTMediationCocoaPods/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		B7650236D3A8C05F42EF0B0F13049864 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B89789B17E8B813CFDA53AFBDDAE588A /* Pods_CTMediationCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CTMediationCocoaPods_Tests.framework; path = "Pods-CTMediationCocoaPods_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FBC6B0BB9F1C9DB1D99A95D721E7CD /* CTMediationCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediationCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7650236D3A8C05F42EF0B0F13049864 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B89789B17E8B813CFDA53AFBDDAE588A /* Pods_CTMediationCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediationCocoaPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AB26B92955B6DA73C09D45B2582371 /* Pods-CTMediationCocoaPods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CTMediationCocoaPods_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C76B51E7202D6876009B95B0 /* CTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CTSDK.framework; sourceTree = "<group>"; };
 		C94C7442C67FB48FF41FD0D748E6BE82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE966D7FA80D370FC01C099C46993032 /* Pods-CTMediationCocoaPods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTMediationCocoaPods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF2BE8BAB7CAEA932DD68B46FD5E8364 /* Pods-CTMediationCocoaPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTMediationCocoaPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,12 +134,21 @@
 		C058E2BDD2CA0F6964E5BD9C118EC960 /* CTMediationCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
-				A956F2A4FD2F6D4A35D752D2C3F350B1 /* ReplaceMe.m */,
+				C76B51E6202D6876009B95B0 /* Frameworks */,
 				EBA5FCCE40B3504FD98C0A06651E9E2D /* Pod */,
 				672302538FD461C0A663C052077A02D7 /* Support Files */,
 			);
 			name = CTMediationCocoaPods;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		C76B51E6202D6876009B95B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C76B51E7202D6876009B95B0 /* CTSDK.framework */,
+			);
+			name = Frameworks;
+			path = CTMediationCocoaPods/Frameworks;
 			sourceTree = "<group>";
 		};
 		CF411EABF479B51893C8C252340BE8DC /* Products */ = {
@@ -268,7 +276,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E48527D9A1ED7864B0C5AD3C6939600 /* CTMediationCocoaPods-dummy.m in Sources */,
-				0207DD0E64BD63C8786F249AA16BC1CB /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
