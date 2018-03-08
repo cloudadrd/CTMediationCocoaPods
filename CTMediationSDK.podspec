@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CTMediationSDK'
-  s.version          = '2.6.0'
+  s.version          = '2.6.4'
   s.summary          = 'CT Meidiation SDK'
 
 # This description is used to generate tags and improve search results.
