@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CTMediationSDK'
-  s.version          = '2.8.2'
+  s.version          = '2.9.1'
   s.summary          = 'CT Meidiation SDK'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,7 @@ CT Meidiation SDK Support CocoaPods.
   s.vendored_frameworks = 'CTMediationCocoaPods/Frameworks/CTSDK.framework'
   s.dependency 'FBAudienceNetwork'
   s.dependency 'GoogleMobileAds'
+  s.ios.library = 'z'
   #s.source_files = 'CTMediationCocoaPods/Classes/**/*'
   
   # s.resource_bundles = {
